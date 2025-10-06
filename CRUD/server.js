@@ -8,6 +8,9 @@ require("dotenv").config()
 
 const app = express()
 
+console.log("sdfgfdfg");
+
+
 app.use(cors());
 app.use(helmet());
 app.use(cookieParser());
